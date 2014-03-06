@@ -27,6 +27,22 @@ angular.module('mean').config(['$stateProvider', '$urlRouterProvider',
       .state('home', {
         url: '/',
         templateUrl: 'views/index.html'
+    })
+      .state('about', {
+        url: '/about',
+        templateUrl: 'views/about.html'
+    })
+      .state('testimonials', {
+        url: '/testimonials',
+        templateUrl: 'views/testimonials.html'
+    })
+      .state('photos', {
+        url: '/photos',
+        templateUrl: 'views/photos.html'
+    })
+      .state('contact', {
+        url: '/contact',
+        templateUrl: 'views/contact.html'
     });
 }
 ]);

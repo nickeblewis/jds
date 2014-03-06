@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-    db: 'mongodb://nickeblewis:Algarve2012@troup.mongohq.com:10025/jds',
+    db: 'mongodb://nickeblewis:Winchester72@troup.mongohq.com:10025/jds', 
     app: {
         name: 'JDS'
     },
