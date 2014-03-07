@@ -4,21 +4,21 @@ angular.module('mean.system').controller('HeaderController', ['$scope', 'Global'
 	$scope.global = Global;
 
 	$scope.menu = [{
-		'title': 'About',
-		'link': 'about',
-		'active': false
+		'title': 'Who we are',
+		'link': 'whoweare',
+		'active': true
 	},{
-		'title': 'Testimonials',
-		'link': 'testimonials',
-		'active': false
+		'title': 'What we do',
+		'link': 'whatwedo',
+		'active': true
 	},{
-		'title': 'Photos',
-		'link': 'photos',
-		'active': false
+		'title': 'Where we are',
+		'link': 'whereweare',
+		'active': true
 	},{
-		'title': 'Contact Us',
+		'title': 'Get in contact',
 		'link': 'contact',
-		'active': false
+		'active': true
 	},{
 		'title': 'Articles',
 		'link': 'articles',
