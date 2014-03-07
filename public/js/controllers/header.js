@@ -6,19 +6,19 @@ angular.module('mean.system').controller('HeaderController', ['$scope', 'Global'
 	$scope.menu = [{
 		'title': 'About',
 		'link': 'about',
-		'active': true
+		'active': false
 	},{
 		'title': 'Testimonials',
 		'link': 'testimonials',
-		'active': true
+		'active': false
 	},{
 		'title': 'Photos',
 		'link': 'photos',
-		'active': true
+		'active': false
 	},{
 		'title': 'Contact Us',
 		'link': 'contact',
-		'active': true
+		'active': false
 	},{
 		'title': 'Articles',
 		'link': 'articles',
