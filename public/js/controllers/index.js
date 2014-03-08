@@ -4,9 +4,9 @@ angular.module('mean.system').controller('IndexController', ['$scope', 'Global',
     $scope.global = Global;
     $scope.map = {
     center: {
-        latitude: 52.2891624,
-        longitude: -0.9367031
+        latitude: 52.333534,
+        longitude: -0.7249246
     },
-    zoom: 8
+    zoom: 12
 };
 }]);
